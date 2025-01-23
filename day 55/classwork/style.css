@@ -1,0 +1,27 @@
+#box{
+    width:100px;
+    height: 100px;
+    background-color: green;
+    animation:change 3s 0.5s infinite ease;
+    position: absolute;
+    top:250px;
+    left:650px;
+}
+
+@keyframes change{
+    0%{
+        width:100px;
+        height: 100px;
+        background-color:  green;
+    }
+    50%{
+        width:150px;
+        height: 150px;
+        background-color: yellow;
+    }
+    100%{
+        width:200px;
+        height: 200px;
+        background-color: red;
+    }
+}

@@ -1,0 +1,82 @@
+#color{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position:absolute;
+    left:100px;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-change{
+    from{
+        background-color:  red;
+    }
+    to{
+        background-color:  green;
+    }
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    border:5px solid black;
+    position:absolute;
+    top:400px;
+    left:100px;
+    border-radius: 100%;
+    border-top:5px solid rebeccapurple;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+#rotate{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    position:absolute;
+    top:500px;
+    left:100px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    from {
+        transform: translate(0,0);
+    }
+    to {
+        transform: translate(200px,0);
+    }
+}
+
+
+#size{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    position:absolute;
+    top:300px;
+    left:700px;
+    animation-name: size-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes size-change{
+    0%{
+        transform:scale(1) rotate(0deg);
+    }
+    100%{
+        transform: scale(1.5) rotate(360deg);
+    }
+}
