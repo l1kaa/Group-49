@@ -8,6 +8,7 @@
 // Core DOM - standard model for all document types
 // XML DOM - standard model for XML documents
 // HTML DOM - standard model for HTML documents
+// მოკლედ რომ ვთქვათ DOM-ის სრული ვერსია არის Document Object Model. მისი საშუალებით HTML-დან js-ში გადმოგვაქვს სასურველი ელემენტი, რის შემდეგადაც უკვე js-ში შეგვიძლია ამ ელემენტის მოდიფიკაცია.
 
 // 3) შექმენით 2 Number ტიპის ცვლადი, დაამატეთ ერთმანეტს და გამოიტანეთ console'ში
 let num1 = 2000
