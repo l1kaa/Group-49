@@ -7,9 +7,9 @@ moveAmount = 5
 document.addEventListener("keydown", event => {
 
     if(event.key.startsWith("Arrow")){
-
+    
         event.preventDefault();
-
+    
         switch(event.key){
             case "ArrowUp":
                 y -= moveAmount;
@@ -24,7 +24,7 @@ document.addEventListener("keydown", event => {
                 x -= moveAmount;
                 break
         }
-
+    
         child.style.top = `${y}px`;
         child.style.left = `${x}px`;
     }

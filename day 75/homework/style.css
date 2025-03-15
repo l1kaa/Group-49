@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 #parent{
     background: blueviolet;
     width:500px;
