@@ -1,15 +1,3 @@
-# Human
-
-# Programmer(Human)
-# Designer(Human)
-
-# Goaprogrammer(Programmer)
-# Goadesiner(Designer)
-
-# Professional(Programmer, Designer)
-
-
-
 class Human:
     def __init__(self, name):
         self.name = name
