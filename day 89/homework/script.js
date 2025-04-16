@@ -35,7 +35,7 @@ class BankAccount{
 class MathOperations{
     static PI = 3.1415;
     static add(a, b){
-        return a + b
+        return (a + b) * PI
     }
 }
 
