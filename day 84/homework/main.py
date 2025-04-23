@@ -48,7 +48,7 @@ class Dog(Animal2):
         self.breed = breed
 
     def speak(self):
-        return f"{self.name} barks!"
+        return f"{self.name} barks"
 
 dog = Dog("pup", "Labrador")
 print(dog.name)       
