@@ -1,6 +1,5 @@
 class Dog:
     def __init__(self, input_name, input_breed, input_age = 0, input_friendliness=True):
-        # Other Dog attributes...
         self.friends = []
 
     def become_friends(self, other_dog):
